@@ -144,7 +144,7 @@
 					"notebookPath": "/caresync-repo/caresync_adb_repo/Landing_to_bronze",
 					"baseParameters": {
 						"source_system": {
-							"value": "@activity('Read Table Details').output.firstRow.source_system_name",
+							"value": "@activity('Read Table Details').output.firstRow.source_system",
 							"type": "Expression"
 						},
 						"table_name": {
